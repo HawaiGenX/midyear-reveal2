@@ -1,0 +1,163 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+body{
+    overflow: scroll;
+}
+
+nav{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    background-color: red;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+
+    /* background-color: #4CAF50; */
+    background-image: url(images/Charlie1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 500px;
+
+    color: #333;
+
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+header h1 {
+    font-size: 80px;
+    color: white;
+}
+
+
+
+header h2 {
+    font-size: 35px;
+    color: white;
+}
+
+
+
+header nav ul {
+
+    list-style: none;
+
+    display: flex;
+    text-align: center;
+
+    justify-content: center;
+
+    gap: 15px;
+}
+
+
+
+header nav a {
+
+    text-decoration: none;
+
+    color: #fff;
+}
+
+
+header p {
+
+    font-size: 20px;
+
+    font: bolder;
+}
+
+
+
+header nav a:hover {
+
+    text-decoration: underline;
+
+    text-decoration-color: orchid;
+
+}
+
+.books {
+    height: 500px;
+    width: 650px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.books h1 {
+    font-size: 80px;
+    color: orange;
+    text-decoration: underline;
+    text-decoration-color: #fff;
+}
+
+.books p {
+    color: white;
+    font-size: 25px;
+}
+
+.books h1 p {
+    margin: auto;
+}
+
+
+.handabook {
+    height: 500px;
+    width: 600px;
+    background-image: url(images/Charlie2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bbcontact {
+    background-image: url(images/Charlie3.png);
+    height: 500px;
+    width: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+section {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 20px;
+
+    background-color: #caceca;
+
+    margin-top: 30px;
+
+}

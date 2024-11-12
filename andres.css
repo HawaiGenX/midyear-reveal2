@@ -1,0 +1,210 @@
+*{
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+
+body{
+    overflow: scroll;
+}
+
+nav{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    background-color: red;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+header{
+
+    /* background-color: #4CAF50; */
+    background-image: url(images/Andres1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 500px;
+
+    color: #333;
+
+    padding: 20px 10px;
+
+
+}
+
+header nav{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1{
+font-size: 65px;
+color: blue;
+}
+
+header h2{
+    font-size: 35px;
+}
+
+
+header nav ul{
+
+    list-style: none;
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 15px;
+
+}
+
+
+header nav a{
+
+    text-decoration: none;
+
+    color: #fff;
+
+}
+
+
+header p{
+
+    font-size: 20px;
+
+    font: bolder;
+
+}
+
+
+header nav a:hover{
+
+    text-decoration: underline;
+
+    text-decoration-color: orchid;
+
+}
+
+.statement{
+    height: 500px;
+    width: 600px;
+    background-image: url(images/Andres2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    
+}
+
+.statement h1{
+    font-size: 40px;
+    color: orange;
+}
+
+.statement div{
+    height: 280px;
+    width: 350px;
+    margin-left: 290px;
+    background-color: rgb(0, 0, 255,0.3);
+}
+
+.statement div ul{
+    margin-left: 30px;
+    font-size: 18px;
+    color:white;
+}
+
+.statement div ul li{
+    margin-bottom: 10px;
+}
+
+.events{
+    height: 500px;
+    width: 600px;
+    background-image: url(images/Andres3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.events h1{
+    font-size: 40px;
+    color: orange;
+}
+
+.events div{
+    height: 280px;
+    width: 350px;
+    margin-left: 250px;
+    margin-top: 50px;
+    background-color: rgb(0, 0, 255,0.3); 
+}
+
+.events div ul{
+    margin-left: 30px;
+    font-size: 18px;
+    color:white; 
+}
+
+.events div ul li{
+    margin-bottom: 10px;
+}
+
+.organizations{
+    height: 500px;
+    width: 600px;
+    background-image: url(images/Andres4.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.organizations div{
+    height: 280px;
+    width: 350px;
+    margin-left: 250px;
+    margin-top: 95px;
+    background-color: rgb(0, 0, 255,0.3); 
+}
+
+.organizations h1{
+    font-size: 40px;
+    color: orange;
+}
+
+.organizations div ul{
+    margin-left: 30px;
+    font-size: 18px;
+    color:white; 
+}
+
+.organizations div ul li{
+    margin-bottom: 10px;
+}
+
+section{
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 20px;
+
+    background-color: #caceca;
+
+    margin-top:30px;
+
+}
